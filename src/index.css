@@ -1,0 +1,105 @@
+
+
+
+
+img{
+  width: 100%;
+}
+.w-30{
+  width: 30%;
+}
+/* ///////////////////START NAVBAR////////////////////////////////// */
+.navbar {
+  background-color: #2c3e50 !important;
+}
+.navbar a{
+  font-size: 20px;
+  font-weight: 600;
+  color:white;
+  text-transform: uppercase;
+  padding: 35px;
+  font-weight: 700 !important;
+
+
+  
+}
+a.active{
+  background-color: #1abc9c;
+  color: white !important;
+ border-radius: 40px;
+ 
+  
+
+}
+.navbar .navbar-brand{
+  font-size: 30px !important;
+}
+/* ///////////////////////END NAVBAR///////////////////////////////// */
+
+
+/* ///////////////////////START HOME///////////////////////////////// */
+
+.bg-2{
+  height: 75vh;
+  background-color: #1abc9c;
+}
+
+
+/* ///////////////////////END HOME///////////////////////////////// */
+
+
+/* ///////////////////////////START ABOUT///////////////////////// */
+.bg-1{
+  height: 75vh;
+  background-color: #1abc9c;
+}
+
+.bg-1 h1{
+ color: white;
+  margin-top: 180px;
+}
+.line{
+
+  width: 100px;
+  height: 8px;
+  background-color: #0d6efd;
+ 
+  
+ 
+}
+p{
+  line-height: 33px;
+  font-size: 20px;
+}
+
+/* ///////////////////////////////END ABOUT//////////////////////// */
+
+/* /////////////////////START PORT//////////////////// */
+
+.port{
+  /* height: 75vh; */
+}
+/* ///////////////////////////END PORT?////////////// */
+
+
+
+/* ////////////////////////////////////START CONTCT//////////// */
+
+.bg-3{
+  padding: 60px;
+  height: 75vh;
+ background-color: #1abc9c;
+}
+
+/* ////////////////////////////////////END CONTACT///////////// */
+/* ///////////////////////////////////START FOOTER/////////// */
+.footer{
+
+  /* height: 25vh; */
+  background-color: #2c3e50;
+  
+}
+
+/* /////////////////////////////////END FOOTER//////////////// */
+
+
