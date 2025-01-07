@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
   <nav className="navbar navbar-expand-lg bg-body-tertiary   " id="navbar-example">
   <div className="container">
-    <a className="navbar-brand" href="">Start Framework
+    <a className="navbar-brand" href="/">Start Framework
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon" />
@@ -17,13 +17,13 @@ export default function Navbar() {
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
       
         <li className="nav-item">
-          < NavLink className="nav-link" to="about">About</NavLink>
+          < NavLink className="nav-link" to="/about">About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="portfolio">portfolio</NavLink>
+          <NavLink className="nav-link" to="/portfolio">portfolio</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="contact">contact</NavLink>
+          <NavLink className="nav-link" to="/contact">contact</NavLink>
         </li>
      
       </ul>
