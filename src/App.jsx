@@ -20,7 +20,7 @@ const router = createBrowserRouter([
     ],
 
   },
-],{basename:"/test789/"}
+],{basename:"/test789"}
 );
   return (
     <>
