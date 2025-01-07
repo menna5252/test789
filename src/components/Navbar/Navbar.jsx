@@ -17,13 +17,13 @@ export default function Navbar() {
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
       
         <li className="nav-item">
-          < NavLink className="nav-link" to="/about">About</NavLink>
+          < NavLink className="nav-link" to="about">About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/portfolio">portfolio</NavLink>
+          <NavLink className="nav-link" to="portfolio">portfolio</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to="/contact">contact</NavLink>
+          <NavLink className="nav-link" to="contact">contact</NavLink>
         </li>
      
       </ul>
