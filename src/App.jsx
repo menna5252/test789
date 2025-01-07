@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { createHashRouter, RouterProvider} from 'react-router-dom'
+import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Contact from './components/Contact/Contact'
@@ -9,7 +9,7 @@ import Layout from './components/Layout/Layout'
 import Not from './components/Not/Not'
 import Portfolio from './components/Portfolio/Portfolio.jsx'
 export default function App() {
-const router = createHashRouter([
+const router = createBrowserRouter([
   {
     path: "",element:<Layout/>,children:[
       {index : true, element: <Home/>},
@@ -20,7 +20,8 @@ const router = createHashRouter([
     ],
 
   },
-]);
+],{basename:"/test789/"}
+);
   return (
     <>
   <RouterProvider router={router} />
