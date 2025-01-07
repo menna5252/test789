@@ -11,12 +11,12 @@ import Portfolio from './components/Portfolio/Portfolio.jsx'
 export default function App() {
 const router = createBrowserRouter([
   {
-    path: "",element:<Layout/>,children:[
-      {index : true, element: <Home/>},
-      {path: "about" , element : <About/>},
-      {path: "contact" , element : <Contact/>},
-      {path: "portfolio" , element : <Portfolio/>},
-      {path: "*" , element : <Not/>},
+    path:"",element:<Layout/>,children:[
+      {index:true, element: <Home/>},
+      {path:"about" , element : <About/>},
+      {path:"contact" , element : <Contact/>},
+      {path:"portfolio" , element : <Portfolio/>},
+      {path:"*" , element : <Not/>},
     ],
 
   },
